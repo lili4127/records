@@ -4,7 +4,15 @@ import pandas as pd
 
 class Records:
     """
-    Command line interface to mymodule
+    Records pulls data from the GBIF API at 
+    "https://api.gbif.org/v1/occurrence/search/"
+
+    Parameters:
+    -----------
+    genusKey: int
+        key for specific genus to pull
+    year: int
+        years to pull data from
     """
     def __init__(self, genusKey=None, year=None):
         # store input params
