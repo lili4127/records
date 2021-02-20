@@ -18,6 +18,8 @@ class Records:
             params={
             "offset": offset,
             "limit": limit,
+            "genusKey": self.genusKey,
+            "year": self.year,
             }
         )
         return res.json()
