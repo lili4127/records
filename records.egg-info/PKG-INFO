@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: records
+Version: 0.0.1
+Summary: A package for getting records from gbif
+Home-page: UNKNOWN
+Author: Lior Tal
+Author-email: ljt2136@columbia.edu
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3

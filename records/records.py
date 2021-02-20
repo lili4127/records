@@ -3,8 +3,10 @@ import requests
 import pandas as pd
 
 class Records:
-
-    def __init__(self, genusKey=None, year=None): 
+    """
+    Command line interface to mymodule
+    """
+    def __init__(self, genusKey=None, year=None):
         # store input params
         self.genusKey = genusKey
         self.year = year

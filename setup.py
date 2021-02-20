@@ -15,9 +15,4 @@ setup(
     license="GPLv3",
     description="A package for getting records from gbif",
     classifiers=["Programming Language :: Python :: 3"],
-    entry_points={
-        "console_scripts": [
-        "records = records.__main__:main",
-        ]
-        },
-        )
+    )
